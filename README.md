@@ -1,8 +1,8 @@
-# Welcome to your CDK TypeScript project
+# cdk-tutorial
 
-This is a blank project for CDK development with TypeScript.
+[AWS CDK チュートリアル](https://aws.amazon.com/jp/getting-started/guides/setup-cdk/)をベースに
+S3をデプロイするテンプレート
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
 
