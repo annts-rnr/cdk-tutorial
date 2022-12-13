@@ -8,6 +8,9 @@ export class DemoS3Stack extends cdk.Stack {
      new cdk.aws_s3.Bucket(this, 'demoBucket', {
       bucketName: 'cdk-demo-bucket-20221129',
       removalPolicy: cdk.RemovalPolicy.DESTROY,
+      publicReadAccess: true,
+      websiteIndexDocument: "index.html",
+      websiteErrorDocument: "404.html",
     });
   }
 }
